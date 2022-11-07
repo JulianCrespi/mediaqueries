@@ -1,4 +1,4 @@
-Test URL: https://juliancrespi.github.io/CSSGrid/
+Test URL: https://juliancrespi.github.io/mediaqueries/
 
 CSS Media Queries Assignment for Desafio Latam Fullstack Javascript course
 
