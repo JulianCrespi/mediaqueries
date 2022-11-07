@@ -3,5 +3,8 @@ Test URL: https://juliancrespi.github.io/mediaqueries/
 CSS Media Queries Assignment for Desafio Latam Fullstack Javascript course
 
 
+Mobile Version
+![image](/assets/img/MediaQueries_Mobile.jpg)
 
-![image](/assets/img/Clase2CssGrid.jpg)
+Desktop Version:
+![image](/assets/img/MediaQueries_Desktop.jpg)
