@@ -8,4 +8,5 @@ Mobile Version:
 
 #
 Desktop Version:
+#
 ![image](/assets/img/MediaQueries_Desktop.jpg)
