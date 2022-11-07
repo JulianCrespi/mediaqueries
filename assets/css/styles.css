@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.grid-container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+        "navbar"
+        "main"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.navbar ul {
+    margin: 0px;
+    padding: 10px;
+    background-color: #1775d1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    padding-right: 10px;
+}
+
+.navbar img {
+    filter: invert(100%);
+    width: 30px;
+}
+
+.main {
+    grid-area: main;
+}
+
+.ordenar {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+}
+
+.ordenar img {
+    width: 30px;
+}
+
+.precio {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 40px;
+    padding: 0px 10px;
+}
+
+.grid-Productos {}
+
+.card-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 0px;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    box-shadow: 0px 5px 5px rgb(231, 231, 231);
+}
+
+.card-producto img {
+    width: 260px;
+    object-fit: fill;
+
+}
+
+.card-producto button {
+    margin-bottom: 20px;
+    background-color: #1775d1;
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.productosadicionales {
+    display: none;
+}
+
+.cajasnumeros {
+    display: flex;
+    justify-content: center;
+}
+
+.numeros {
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    padding: 10px;
+    margin: 0px;
+    color: #1775d1;
+
+
+}
+
+footer {
+    background-color: #004a9f;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+footer img {
+    filter: invert(100%);
+    width: 40px;
+}
