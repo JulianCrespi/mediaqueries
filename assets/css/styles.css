@@ -17,6 +17,12 @@ li {
     grid-template-rows: auto 1fr auto;
 }
 
+.sidemenu {
+    display: none;
+    grid-area: sidemenu;
+}
+
+
 .navbar {
     grid-area: navbar;
 }
@@ -130,4 +136,65 @@ footer {
 footer img {
     filter: invert(100%);
     width: 40px;
+}
+
+
+@media (min-width: 992px) {
+    .grid-container {
+        display: grid;
+        min-height: 100vh;
+        grid-template-areas:
+            "navbar main"
+            "sidemenu main"
+            "footer main";
+
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 300px auto;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .sidemenu {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        background-color: #1775d1;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sidemenu li {
+        padding: 10px;
+    }
+
+    .menuicon {
+        display: none;
+    }
+
+    .productoprincipal {
+        display: none;
+    }
+
+    .productosadicionales {
+        grid-area: productos;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .card-producto {
+        width: 400px;
+        margin: 30px 20px;
+        padding: 0px;
+        border-style: solid;
+        border-color: rgb(218, 218, 218);
+        box-shadow: 0px 5px 5px rgb(231, 231, 231);
+    }
+
+
+
 }
